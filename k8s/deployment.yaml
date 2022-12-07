@@ -14,8 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: hashicorp/http-echo
-        args:
-        - "-text=version 1-0-0"
+        image: ealen/echo-server
         ports:
         - containerPort: 5678
